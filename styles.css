@@ -1,40 +1,57 @@
+/*TYPE SELECTORS*/
+
+*{
+    box-sizing: border-box;
+}
+
+
 body{
-    background-color: #FF733F;
+    background-color: #ffffc4;
+    font-family: sans-serif;
 }
 
 h1{
-    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
     text-align: center;
     
 }
 
 h2{
-    font-size: 26px;
+    font-size: 30px;
 }
 
 h1,h2{
-    font-family: Helvetica, sans-serif;
-    color: #FFFFFF;
-    font-weight: bold;
+    font-family: Impact, serif;
+    color: #000000;
 }
 
 p,li{
     font-size: 18px;
     text-align: justify;
-    font-family: Helvetica, sans-serif;
 }
 
 img{
     display: block;
-    margin: auto;
+    margin: 0 auto;
     width: 550px;
-    height: 550px;
+    height: 450px;
 }
 
 
+/*CLASS SELECTORS*/
 
+.recipe{
+    width: 80%;
+    background-color: #ffa07a;
+    margin: 0 auto;
+    padding: 20px;
+}
 
 .recipe-slogan{
     font-size: 14px;
     text-align: center;
 }
+
+
